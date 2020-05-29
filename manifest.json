@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "MyPlagin",
+	"description": "Плагин",
+	"version": "1.0.0",
+	"icons": {"128": "styles/images/icons/icon-128.png"},
+	"browser_action": {
+		"default_icon": "styles/images/icons/icon.png",
+		"default_popup": "index.htm"
+	},
+	"permissions": ["activeTab"]
+}
